@@ -1,0 +1,53 @@
+[
+  {
+    "id": 0,
+    "vards": "Liene",
+    "vecums": "10",
+    "laiks": "19",
+    "klikski": "35",
+    "datums": "2021-11-24",
+    "piezimes": "",
+    "skola": "mvsk"
+  },
+  {
+      "id": 1,
+      "vards": "Jānis",
+      "vecums": "12",
+      "laiks": "500",
+      "klikski": "33",
+      "datums": "2021-11-29",
+      "piezimes": "",
+      "skola": "mvsk"
+
+  },
+  {
+      "id": 2,
+      "vards": "Jana",
+      "vecums": "17",
+      "laiks": "110",
+      "klikski": "25",
+      "datums": "2021-12-05",
+      "piezimes": "",
+      "skola": "lvsk"
+  },
+  {
+      "id": 3,
+      "vards": "Guna",
+      "vecums": "14",
+      "laiks": "310",
+      "klikski": "45",
+      "datums": "2021-12-06",
+      "piezimes": "",
+      "skola": "lvsk"
+  },
+  {
+      "id": 4,
+      "vards": "Guntis",
+      "vecums": "15",
+      "laiks": "30",
+      "klikski": "23",
+      "datums": "2021-12-08",
+      "piezimes": "",
+      "skola": "bvsk"
+  }
+]

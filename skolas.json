@@ -1,0 +1,17 @@
+[
+  {
+    "skolas_id": 0,
+    "nosaukums": "Mazkrūmiņu vidusskola",
+    "isais": "mvsk"
+  },
+  {
+    "skolas_id": 1,
+    "nosaukums": "Lielavotu vidusskola",
+    "isais": "lvsk"
+  },
+  {
+    "skolas_id": 2,
+    "nosaukums": "Biezezera vidusskola",
+    "isais": "bvsk"
+  }
+]

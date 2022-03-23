@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="static/css/style.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atmiņas spēle</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        
+        <div class="header">
+            <h1>
+                <a href="/">
+                Atmiņas spēle
+                </a>
+            </h1>
+
+            <ul>
+                <li>
+                    <a href="spele">
+                    Spēle
+                    </a>
+                </li>
+                <li>
+                    <a href="pspele">
+                    Pielāgota Spēle
+                    </a>
+                </li>
+                <li>
+                    <a href="top">
+                    Tops
+                    </a>
+                </li>
+                <li>
+                    <a href="par">
+                    Par autoru
+                    </a>
+                </li>
+            </ul>
+        </div><!--beidzas header-->
+
+		
+		
+        <div class="content">
+            <p>Atrodi visus vienādos laukumus, pēc iespējas ātrāk!</p>
+
+            <h3>Info par spēlētāju:</h3 >
+            
+            Vārds: <input id="vards" />
+            <br />
+            Vecums: <input id="vecums" />
+            <br />
+            Reģions
+            <select id="regions">
+                <option value="Kurzeme">Kurzeme</option>
+                <option value="Vidzeme">Vidzeme</option>
+                <option value="Latgale">Latgale</option>
+                <option value="Sēlija">Sēlija</option>
+            </select>
+            <br />
+            <button onclick=" saktSpeli() ">Sākt spēli</button>
+
+            <script>
+                function saktSpeli()
+                {
+                    let ievaditsVards = document.querySelector('#vards').value;
+                    let ievaditsVecums = document.querySelector('#vecums').value;
+                    let ievaditsRegions = document.querySelector('#regions').value;
+
+                    if(ievaditsVards == '')
+                    {
+                        alert('Ievadiet vārdu!');
+                    }
+                    else
+                    {
+                        //vards = encodeURI(vards);
+                        window.location = 'spele#'+ievaditsVards+','+ievaditsVecums+','+ievaditsRegions;
+                    }
+                    
+                }
+            </script>
+
+        </div>
+
+    </div><!--beidzas wrapper-->
+
+	
+</body>
+</html>
